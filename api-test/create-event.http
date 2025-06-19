@@ -1,0 +1,14 @@
+//Rest client will automatically detect this file 
+
+POST http://localhost:8080/events 
+content-type: application/json  
+
+
+// casing is not imp here
+{
+  "name" : "supabase meetup",
+  "Description" : "first offline meetup in delhi",
+  "location" : "Delhi/NCR ",
+  "DateTime" : "2025-01-01T15:30:00.000Z"
+
+}

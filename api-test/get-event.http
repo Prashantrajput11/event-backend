@@ -1,0 +1,5 @@
+//Rest client will automatically detect this file 
+
+GET http://localhost:8080/events 
+
+
